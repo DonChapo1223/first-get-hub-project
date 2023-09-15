@@ -1,41 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles3.css" />
-  </head>
 
-  <body>
-    <section id="about-me">
-      <nav>
-        <div class="personal__logo">Don Shelton</div>
-        <ul class="nav__link--list">
-          <li>
-            <a href=""class="
-              nav__link-anchor 
-              link__hover-effect 
-              link__hover-effect--black"
-              >Languages</a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Don Shelton</title>
+  <link rel="stylesheet" href="styles3.css">
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="about-me">
+    <nav>
+      <div class="personal__logo">Don Shelton</div>
+      <ul class="nav__link--list">
+        <li class="nav__link">
+          <a href="#languages" class="
+          nav__link--anchor
+          link__hover-effect
+          link__hover-effect--black
+          ">Languages</a>
+        </li>
+        <li class="nav__link">
+          <a href="#projects" class="
+          nav__link--anchor
+          link__hover-effect
+          link__hover-effect--black
+          ">Projects</a>
+        </li>
+        <li class="nav__link">
+          <a href="mailto:email@email.com" class="
+          nav__link--anchor
+          nav__link--anchor-primary
+          ">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="flex flex-1">
+      <div class="about-me__info row">
+        <div class="about-me__info--container">
+          <figure class="about-me__picture--mask">
+            <img src="./assets/me.jpeg" class="about-me__picture" alt="Picture of Me!">
+          </figure>
+          <h1 class="about-me__info--title">
+            Hey! I'm <span class="text-purple">Don Shelton</span>&nbsp;<span class="wave">👋</span>
+          </h1>
+          <p class="about-me__info--para">
+            I'm a <strong class="text-purple">frontend software engineer</strong> with a strong passion for building responsive and performant web
+            applications with a great user experiences that positively impacts the world.
+          </p>
+          <div class="about-me__links">
+            <a href="" class="about-me__link">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="" class="about-me__link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="" class="about-me__link">
+              <i class="far fa-envelope"></i>
+            </a>
+            <a href="./assets/Example Resume.pdf" target="_blank" class="about-me__link">
+              <i class="fas fa-file-pdf"></i>
+            </a>
+          </div>
+        </div>
+        <figure class="about-me__img--container">
+          <img src="./assets/undraw_websites.svg" class="about-me__img" alt="">
+        </figure>
+      </div>
+    </div>
+  </section>
+  <section id="languages">
+    <div class="container">
+      <div class="row">
+        <h1 class="section__title">This is my <span class="text-purple">technology stack</span></h1>
+        <div class="language__list">
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" class="language__img">
+            </figure>
+            <span class="language__name">HTML</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" class="language__img">
+            </figure>
+            <span class="language__name">HTML</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" class="language__img">
+            </figure>
+            <span class="language__name">HTML</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" class="language__img">
+            </figure>
+            <span class="language__name">HTML</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" class="language__img">
+            </figure>
+            <span class="language__name">HTML</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" class="language__img">
+            </figure>
+            <span class="language__name">HTML</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" class="language__img">
+            </figure>
+            <span class="language__name">HTML</span>
+          </div>
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" class="language__img">
+            </figure>
+            <span class="language__name">HTML</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="containter">
+      <div class="row">
+        <h1 class="section__title">Here are some of my <span class="text-purple">projects</span></h1>
+        <ul class="project__list">
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/loopit.png" class="project__img" alt="Car subscripition project">
+            <div class="project__description">
+              <h3 class="project__description--title">Car Sales Project</h3>
+              <h4 class="project__description--sub-title">
+                Html, CSS, JavaScript, Vue, Vuex
+              </h4>
+              <p class="project__description--para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, 
+                luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.
+              </p>
+              <div class="project__description--links">
+                <a href="https://www.github.com/DonChapo1223/first-get-hub-project"  target="_blank" class="project__description--link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.yourwebsite.com" class="project__description--link">
+                  <i class="fas fa-github"></i>
+                </a>
+              </div>
+            </div>
+            </div>
           </li>
-          <li>
-            <a href=""class="
-              nav__link-anchor 
-              link__hover-effect 
-              link__hover-effect--black"
-              >Project</a>
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/loopit.png" class="project__img" alt="Car subscripition project">
+            <div class="project__description">
+              <h3 class="project__description--title">Dashboard</h3>
+              <h4 class="project__description--sub-title">
+                Html, CSS, JavaScript, Vue, Vuex
+              </h4>
+              <p class="project__description--para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, 
+                luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.
+              </p>
+              <div class="project__description--links">
+                <a href="https://www.github.com/DonChapo1223/first-get-hub-project"  target="_blank" class="project__description--link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.yourwebsite.com" class="project__description--link">
+                  <i class="fas fa-github"></i>
+                </a>
+              </div>
+            </div>
+            </div>
           </li>
-          <li>
-            <a href=""class="
-              nav__link-anchor 
-              nav__link--anchor-primary
-              ">Contact</a>
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/loopit.png" class="project__img" alt="Car subscripition project">
+            <div class="project__description">
+              <h3 class="project__description--title">car sales project</h3>
+              <h4 class="project__description--sub-title">
+                Html, CSS, JavaScript, Vue, Vuex
+              </h4>
+              <p class="project__description--para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, 
+                luctus faucibus augue. Fusce volutpat iaculis dapibus. Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.
+              </p>
+              <div class="project__description--links">
+                <a href="https://www.github.com/DonChapo1223/first-get-hub-project"  target="_blank" class="project__description--link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.yourwebsite.com" class="project__description--link">
+                  <i class="fas fa-github"></i>
+                </a>
+              </div>
+            </div>
+            </div>
           </li>
         </ul>
-      </nav>
-    </section>
-  </body>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="row footer__row">
+      <a href="#" class="footer__anchor">
+        <figure class="footer__logo">
+          <img src="./assets/logo.svg" class="footer__logo--img" alt="">
+        </figure>
+        <span class="footer__logo--popper">
+          Top
+          <i class="fas fa-arrow-up"></i>
+        </span>
+      </a>
+      <div class="footer__social--list">
+        <a href="https://google.com" target="_blank" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank">GitHub</a>
+      </a>
+      <div class="footer__social--list">
+        <a href="https://linkedin.com" target="_blank" class="
+        footer__social--link
+        link__hover-effectd
+        link__hover-effect--white
+        " target="_blank">LinkedIn</a>
+        <a href="mailto:email@email.com" target="_blank" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank">Email</a>
+        <a href="./assets/Example Resume.pdf" target="_blank" class="
+        footer__social--link
+        link__hover-effect
+        link__hover-effect--white
+        " target="_blank">Resume</a>
+      </div>
+      <div class="footer__copyright">Copyright © 2023 Don Shelton</div>
+    </div>
+  </footer>
+</body>
 
 </html>
